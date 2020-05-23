@@ -1,0 +1,51 @@
+.App {
+  background-color: lightgoldenrodyellow;
+  min-height: 700px;
+  width: 500px;
+  margin: 40px auto;
+}
+
+h1 {
+  color: aqua;
+  min-height: 1px;
+  width: 200px;
+  margin: 40px auto;
+}
+
+body {
+  background-color: bisque;
+}
+
+#form input {
+  background-color: white;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+#form input ::placeholder {
+  color: rebeccapurple;
+}
+
+#form input::focus {
+  outline: none;
+}
+
+form button::focus {
+  outline: none;
+}
+
+#form button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: dodgerblue;
+  cursor: pointer;
+  font-weight: bolder;
+  color: aliceblue;
+}
